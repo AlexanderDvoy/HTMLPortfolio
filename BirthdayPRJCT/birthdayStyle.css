@@ -1,0 +1,79 @@
+
+body{
+    background-position:center;
+    background-position: top;
+    background-image: url(https://media-api.xogrp.com/images/14c72c1d-025b-4802-bd0a-1f23c61079d0);
+    background-repeat: no-repeat;
+    background-size: 480px;
+}
+
+h1{
+    color: antiquewhite;
+    align-items:flex-start;
+    text-align:center;
+    text-emphasis: double-circle red;
+    text-emphasis-position: over;
+      }
+      
+h2{
+    color: antiquewhite;
+    align-items:flex-start;
+    text-align:center; 
+}
+
+div{
+    text-align: center;
+}
+ul{
+    color:aquamarine;
+    align-items:flex-start;
+    font-size: 20px;
+    display: inline-block;
+    text-align:left;
+}
+
+h3{
+    color: red;
+    align-items:flex-start;
+    text-align:center;
+    font-size: 25px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4{
+    color: red;
+    align-items:flex-start;
+    text-align:center;
+    font-size: 25px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button {
+    background-color:purple;
+    border:blue;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 650px;
+    cursor: pointer;
+    border-radius: 100%;
+    width: 200px;
+    height: 70px;
+    animation-name: btn1;
+    animation-duration: 10s;
+    
+  }
+@keyframes btn1 {
+    0% {background-color: red;}
+    10%{background-color: yellow;}
+    20%{background-color: blue;}
+    30%{background-color: purple;}
+    40%{background-color:pink;}
+    50%{background-color: green;}
+    60%{background-color: orange;} 
+    70%{background-color: palegreen}
+    80%{background-color: burlywood;}
+    100%{background-color: brown;}
+   
+}
+  

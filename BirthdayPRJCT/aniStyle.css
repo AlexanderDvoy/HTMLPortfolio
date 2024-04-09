@@ -1,0 +1,51 @@
+div {
+    width: 200px;
+    height: 70px;
+    background-color: red;
+    animation-name: ani1;
+    animation-duration: 10s;
+}
+@keyframes ani1 {
+    0% {background-color: red;}
+    10%{background-color: yellow;}
+    20%{background-color: blue;}
+    30%{background-color: purple;}
+    40%{background-color:pink;}
+    50%{background-color: green;}
+    60%{background-color: orange;} 
+    70%{background-color: palegreen}
+    80%{background-color: burlywood;}
+    90%{background-color: brown;}
+    100%{background-color: black;}
+}
+/* #header{
+    font-size: x-large;
+    position: relative;
+    animation-duration: 10s;
+    animation-iteration-count: 3;
+    animation-direction: reverse;
+}
+@keyframes header{
+    0% {background-color: black; left: 0px;top:0px;}
+    50% {background-color: black; left: 200px;top:0px;}
+    100% {background-color: black; left: 0px;top: 200px;}
+
+} */
+
+h1{
+    background-image: url(https://image.cnbcfm.com/api/v1/image/104768589-movies-anywhere.JPG?v=1507816437&w=740&h=416&ffmt=webp&vtcrop=y);
+    color:yellow;
+    height: 150px;
+}
+h3{
+    background-color:purple;
+    font-size:25px;
+}
+body{
+    background-image: url(https://media.nbclosangeles.com/2019/09/01-30-2020-Hollywood-Walk-of-Fame-Shutterstock.jpg?quality=85&strip=all&resize=1200%2C675);
+    background-size: 100% 100%;
+}
+p{
+    color: black;
+    font-size: 25px;
+}
